@@ -17,10 +17,11 @@ npm run build
 
 ### Run your unit tests
 ```
-npm run test:unit
+npm run test
 ```
 
 ### Lints and fixes files
+lint, or a linter, is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 ```
 npm run lint
 ```
