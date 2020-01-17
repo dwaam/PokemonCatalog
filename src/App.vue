@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/pokemon">Pokemon information</router-link>
+      <router-link to="/pokemon/pikachu">Pokemon information</router-link>
     </div>
     <router-view/>
   </div>

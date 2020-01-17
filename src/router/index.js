@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+
 import Home from '../views/Home.vue';
+import PokemonInfo from '../views/PokemonInfo.vue';
 
 Vue.use(VueRouter);
 
@@ -11,9 +13,8 @@ const routes = [
     component: Home,
   },
   {
-    path: '/pokemon',
-    name: 'pokemon',
-    component: () => import(/* webpackChunkName: "about" */ '../views/PokemonInfo.vue'),
+    path: '/pokemon/:id',
+    component: PokemonInfo,
   },
 ];
 
